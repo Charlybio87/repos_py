@@ -34,7 +34,7 @@ print("7.Mi nombre es", "Python.") #Argumentos posicionales
 print("Monty Python.")
 
 print("8.Mi nombre es", "Python.", end="") #Argumentos de palabras clave
-print("Monty Python.")                      #end=" ",sep="-",
+print("Monty Python.")                      
 print("Mi nombre es ", end="  ")
 print("Monty Python.")
 print("Mi nombre es ", end="        ") # Se visualiza un espacio mucho mayor 
@@ -45,6 +45,7 @@ print("Monty Python.")
 
 print("10.Mi", "nombre", "es", "Monty", "Python.", sep="-") #separacion de c/argumento con -
 
-print("11.Mi", "nombre", "es", sep="_", end="*") # Palabra clave pueden mezclarse 
-print("Monty", "Python.", sep="*", end="*\n")    # en una invocación
-
+print("11.Mi", "nombre", "es", sep="_", end="*") # Palabra clave pueden mezclarse en una 
+print("Monty", "Python.", sep="*", end="*\n")    # invocación. #end=""(fin arg),sep="-"(entre argum)
+                                                
+                                                 
